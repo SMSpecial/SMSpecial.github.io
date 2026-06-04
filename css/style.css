@@ -1,0 +1,18 @@
+/* تخصيص خطوط وألوان إضافية لموقع Special Mark */
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+/* تأثير احترافي عند تمرير الماوس على بطاقات الخدمات */
+.service-card {
+    transition: all 0.3s ease-in-out;
+}
+.service-card:hover {
+    transform: translateY(-8px);
+    border-color: #38bdf8; /* لون الـ Accent الأزرق */
+}
+
+/* تحسين شكل قفل الأمان أو حقول الإدخال */
+input:focus, textarea:focus {
+    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2);
+}
